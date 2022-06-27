@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.7.0-alpha.20220624.1" />
+    <PackageReference Include="Azure.Identity.BrokeredAuthentication" Version="1.0.0-alpha.20220621.1" />
+  </ItemGroup>
+
+</Project>
